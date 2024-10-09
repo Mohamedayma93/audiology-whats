@@ -572,7 +572,7 @@ function sendToWhatsApp() {
     `;
 
     const encodedMessage = encodeURIComponent(message.trim());
-    const phoneNumber = "201116644752"; // استبدل هذا بالرقم الذي تود إرسال الرسالة إليه
+    const phoneNumber = "0123456789"; // استبدل هذا بالرقم الذي تود إرسال الرسالة إليه
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     
     window.open(whatsappUrl, '_blank');
